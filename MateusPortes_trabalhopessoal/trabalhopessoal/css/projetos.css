@@ -1,0 +1,150 @@
+body {
+  font-family: "Fira Sans", Arial, sans-serif;
+  margin: 0px;
+  color: #141414;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 800px) {
+  .subtitulo {
+    font-size: 3rem;
+    text-transform: capitalize;
+    max-width: initial !important;
+  }
+}
+
+img {
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 10px 10px 10px #ebebeb;
+}
+.titulopro {
+  display: flex;
+  font-size: 40px;
+  color: white;
+  background-color: #141414;
+  margin: 0px;
+  padding: 40px;
+  justify-content: space-between;
+}
+.titulopro > h3 {
+  width: max-content;
+  height: fit-content;
+  font-size: 15px;
+  justify-content: end;
+}
+.exp1 {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 600px 600px;
+  font-size: 30px;
+  background-color: #f5f5f5;
+  justify-content: center;
+}
+.exp1 > p {
+  grid-column: 1;
+  align-content: center;
+  padding: 30px 0px;
+}
+.pro1img {
+  grid-column: 2;
+  margin-left: 100px;
+}
+.h3 {
+  display: grid;
+  font-size: 30px;
+  max-width: 800px;
+  text-align: center;
+  justify-content: center;
+  margin: 100px;
+}
+.brafé {
+  padding: 50px 0px;
+  margin: 60 auto;
+  display: grid;
+  grid-template-columns: 600px 600px;
+  font-size: 30px;
+  background-color: #f5f5f5;
+  justify-content: center;
+}
+.espacobra {
+  width: max-content;
+  height: 300px;
+}
+.surfbot {
+  display: grid;
+  grid-template-columns: 600px auto;
+  font-size: 30px;
+  background-color: #f5f5f5;
+  justify-content: center;
+}
+.surfbot > p {
+  grid-column: 2;
+  margin-left: 500px;
+  padding: 40px 40px;
+}
+
+.projetosini {
+  margin-bottom: 400px;
+}
+
+.mainbik {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto auto;
+  margin: 0px auto;
+  max-width: 1200px;
+}
+.bikcraftguias {
+  grid-column: 2;
+  grid-row: 2;
+}
+.bikcraft {
+  background-color: rgb(49, 49, 49);
+}
+.home {
+  grid-column: 1;
+  grid-row: 1/-1;
+}
+.phome {
+  font-size: 27px;
+  color: white;
+  margin: 50px 0px 0px 40px;
+  grid-column: 2;
+  grid-row: 1;
+}
+.imgbik {
+  max-width: 300px;
+}
+.gias {
+  background-color: rgb(54, 54, 54);
+  display: flex;
+  font-size: 25px;
+  color: rgb(34, 34, 34);
+  align-items: center;
+  margin: 50px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 10px 10px;
+}
+.gias > p {
+  color: white;
+}

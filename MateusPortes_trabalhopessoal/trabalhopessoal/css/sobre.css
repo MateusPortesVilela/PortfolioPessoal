@@ -1,0 +1,98 @@
+.sob {
+  display: flex;
+  align-items: center;
+}
+h1,
+h2,
+h4,
+p,
+a {
+  margin: 0px;
+}
+
+.mainsob {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto;
+  height: fit-content;
+  border-radius: 10px;
+  padding: 10px;
+  gap: 5px;
+  max-width: 1200px;
+  width: max-content;
+  height: max-content;
+}
+.grade1 {
+  grid-column: 1;
+  display: grid;
+  align-items: center;
+  align-content: center;
+}
+.grade2 {
+  grid-column: 2;
+  display: grid;
+  align-items: center;
+  align-content: center;
+}
+.grade3 {
+  grid-column: 3;
+  display: grid;
+  align-items: center;
+  align-content: center;
+}
+.grade4 {
+  grid-column: 4;
+  display: grid;
+  align-items: center;
+  align-content: center;
+}
+.grade5 {
+  grid-column: 5;
+  display: grid;
+  align-items: center;
+  align-content: center;
+}
+.trave1 {
+  width: 3px;
+  height: 200px;
+  background-color: #b6f829;
+}
+.trave2 {
+  width: 3px;
+  height: 200px;
+  background-color: #67dd0a;
+}
+.subtitulosob {
+  color: rgb(132, 130, 130);
+  text-align: center;
+  font-size: 8rem;
+  line-height: 1;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 4ch;
+}
+.painelsob {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.bodysob {
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+  margin-top: 120px;
+}
+.progress {
+  background: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 4px;
+  width: 130px;
+  display: inline-block;
+}
+.progress .level {
+  background: #08520a;
+  height: 100%;
+}
+p {
+}
