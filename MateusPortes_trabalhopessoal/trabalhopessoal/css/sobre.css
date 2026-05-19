@@ -1,6 +1,7 @@
 .sob {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 h1,
 h2,
@@ -63,7 +64,7 @@ a {
   background-color: #67dd0a;
 }
 .subtitulosob {
-  color: rgb(132, 130, 130);
+  color: #e0e0e0;
   text-align: center;
   font-size: 8rem;
   line-height: 1;
@@ -80,7 +81,6 @@ a {
   display: grid;
   justify-items: center;
   justify-content: center;
-  margin-top: 120px;
 }
 .progress {
   background: #ddd;
@@ -93,4 +93,21 @@ a {
 .progress .level {
   background: #08520a;
   height: 100%;
+}
+.bodysob > a {
+  color: #b6f829;
+  background-color: #08520a;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.bodysob > a:hover {
+  color: #e0e0e0;
+  background-color: #67dd0a;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
 }

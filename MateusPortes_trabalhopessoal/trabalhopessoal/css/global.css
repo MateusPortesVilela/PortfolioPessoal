@@ -2,6 +2,10 @@ body {
   font-family: "Fira Sans", Arial, sans-serif;
   margin: 0px;
   color: #141414;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
 }
 
 h1,
@@ -31,76 +35,14 @@ img {
   max-width: 4ch;
 }
 
-@keyframes slideInLeft {
-  from {
-    opacity: 0;
-    transform: translateX(-50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@keyframes slideInRight {
-  from {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@keyframes slideInUp {
-  from {
-    opacity: 0;
-    transform: translateY(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-.reveal {
-  opacity: 0;
-}
-
-.reveal.active {
-  animation: slideInUp 0.8s ease-out forwards;
-}
-
-.reveal-left {
-  opacity: 0;
-}
-
-.reveal-left.active {
-  animation: slideInLeft 0.8s ease-out forwards;
-}
-
-.reveal-right {
-  opacity: 0;
-}
-
-.reveal-right.active {
-  animation: slideInRight 0.8s ease-out forwards;
-}
-
 @media (max-width: 800px) {
   .subtitulo {
     font-size: 3rem;
     text-transform: capitalize;
     max-width: initial !important;
   }
+}
+a {
+  text-decoration: none;
+  font-size: 20px;
 }
